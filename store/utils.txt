@@ -1,0 +1,7 @@
+Think of utils.py like a toolkit for your website. It's a file where you keep special tools (functions) that help your website do different jobs. These tools are like helpers that can quickly solve specific tasks.
+
+For example, imagine you're building a website where people can shop online. You'll need tools to keep track of what's in their shopping carts, calculate prices, and handle their orders. That's where utils.py comes in. It's a place to store these tools so you can use them whenever you need to.
+
+These tools, or functions, are like mini-magicians. You tell them what to do, and they make things happen in the background. They're your go-to helpers when you want your website to work smoothly without getting tangled up in lots of complicated details.
+
+So, in simple words, utils.py is a collection of special helpers that your website uses to get things done quickly and neatly, like keeping track of shopping carts and handling orders.

@@ -1,0 +1,17 @@
+The code sets up event listeners for buttons with the class update-cart. These buttons are usually used to add or remove items from the cart.
+
+When a button is clicked, the associated product ID and action (add or remove) are retrieved from the button's data attributes.
+
+If the user is anonymous (not logged in), the addCookieItem function is called to update the cart using cookies.
+
+If the user is authenticated, the updateUserOrder function is called to send the update request to the server using the fetch function.
+
+The updateUserOrder function makes an AJAX request to the server, sending the product ID and action as JSON data. After the request is successful, the page is reloaded to reflect the updated cart.
+
+The addCookieItem function updates the cart using cookies. It adds or removes items from the cart object stored in cookies, then updates the cart cookie and reloads the page.
+
+This JavaScript code allows users to update their cart items (add or remove) and ensures that the cart information is updated both for anonymous users (using cookies) and authenticated users (using server requests).
+
+
+
+
